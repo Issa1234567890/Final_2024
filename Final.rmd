@@ -300,4 +300,10 @@ drugfish <- fisher.test(table1)
 drugfish
 ```
 
+Out of all these outcomes, the Fisher's Exact test result for drug users is the one that requires the greatest attention. The resulting p-value is a very tiny 0.00000000003. It is essentially zero. This indicates that it is unlikely that these outcomes happened by accident. 
+
+This indicates that the alternative is accepted and the null hypothesis is rejected. 
+
+The odds ratio is 0.087. This indicates that the risk of contracting COVID-19 was around 0.087 times higher in those who received the placebo than in those who received the vaccination. This is really important. Additionally, it indicates that the vaccination is probably ineffective. 
+
 # Overall Results and Conclusions
