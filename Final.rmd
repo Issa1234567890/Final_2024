@@ -142,6 +142,10 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+The exact percentages of females who contracted COVID-19 after receiving either the vaccination or a placebo are displayed in these numerical findings. 
+
+According to the figures I estimated from the barplot, the percentage of females who contracted COVID-19 after receiving a placebo was much higher at 65% than the percentage of individuals who contracted the virus after receiving the vaccination (35%). 50% of the women who received a placebo and 50% of those who received the vaccination were among the females who were deemed healthy. If just 35% of those who received the vaccination contracted COVID-19, this indicates that the vaccine is efficacious for females. COVID-19 was far more common in those who took the placebo. This is important. 
+
 ## LGBTQ
 
 
