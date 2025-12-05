@@ -126,6 +126,15 @@ basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+This plot illustrates the population of females and the correlation between contracting COVID-19 and receiving a placebo or the vaccination. 
+
+The first graph shows how many people had COVID-19 or were healthy and whether they got a placebo. The second graph displays the proportion of individuals who received either the COVID-19 vaccination or a placebo, as well as whether or not they had COVID. They are divided into groups based on whether they received the Covid-19 vaccination or a placebo. 
+
+This figure indicates that around 35% of female COVID-19 patients received the vaccination and approximately 65% received a placebo. Additionally, it demonstrates that the percentage of females who were unharmed by either the placebo or the immunization was almost 50/50 (the vaccine was somewhat higher). It seems that more persons got COVID-19 with the vaccination and fewer people got it with the placebo when compared to the male population. The fact that the placebo causes more cases of COVID-19 than the immunization does not change, though. 
+
+I used a lot of codes to plot this. The code block that starts with dd2, which appears to be where the environment pane is used and contains four variables. Treatment, infected, count, and percent (which stands for percent) are some of these factors. The basicC is the name of the second group. It has a list of eleven variables that may be seen in the environment section. This is to establish the initial plan. The final set of codes is the basicCC, which is likewise located in the files pane. It has eleven variables that are useful for making the second plot, the percentage plot. 
+
+
 ## LGBTQ
 
 
