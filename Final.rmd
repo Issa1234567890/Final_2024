@@ -206,6 +206,13 @@ Of the LGBT individuals who contracted COVID-19, those who received a placebo we
 
 I used a lot of codes to plot this. The code block that starts with dd2, which appears to be where the environment pane is used and contains four variables. Treatment, infected, count, and percent (which stands for percent) are some of these factors. The basicC is the name of the second group. It has a list of eleven variables that may be seen in the environment section. This is to establish the initial plan. The final set of codes is the basicCC, which is likewise located in the files pane. It has eleven variables that are useful for making the second plot, the percentage plot. 
 
+### Numerical Results
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=gay)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ## Druggies
 
