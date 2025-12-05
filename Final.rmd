@@ -227,6 +227,12 @@ gaysfish <- fisher.test(table1)
 gaysfish
 ```
 
+Out of all these outcomes, the Fisher's Exact test output is the one that requires the greatest attention. The resultant p-value is a minuscule 0.0000007. It is essentially zero. This indicates that it is unlikely that these outcomes happened by accident. 
+
+This indicates a solid rejection of the null hypothesis that COVID-19 infection is independent of sex. 
+
+4.3 is the odds ratio. This indicates that the risk of contracting COVID-19 was about four times higher for those who received a placebo than for those who received the vaccination. This is really important. Additionally, it indicates that the vaccination is probably safe for LGBTQ people. The odds ratio exceeds both the male and female ratios. 
+
 ## Druggies
 
 
