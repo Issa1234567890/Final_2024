@@ -306,4 +306,18 @@ This indicates that the alternative is accepted and the null hypothesis is rejec
 
 The odds ratio is 0.087. This indicates that the risk of contracting COVID-19 was around 0.087 times higher in those who received the placebo than in those who received the vaccination. This is really important. Additionally, it indicates that the vaccination is probably ineffective. 
 
+```{r}
+effect <- drugfish$p.value/(drugfish$p.value +1)
+effectivenessdrug = drugfish$estimate/(drugfish$estimate +1)*100
+print(effectivenessdrug)
+```
+
+```{r}
+low=(drugfish$conf.int[1]/(drugfish$conf.int[1] +1))*100
+hi=(drugfish$conf.int[2]/(drugfish$conf.int[2] +1))*100
+options(digits=2)
+```
+
+## Effectiveness Confidence Interval `r low`  to `r hi`
+
 # Overall Results and Conclusions
