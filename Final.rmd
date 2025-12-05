@@ -287,4 +287,8 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+The exact percentages of drug users who contracted COVID-19 after receiving a placebo or the vaccination are displayed in these numerical findings. 
+
+The percentage of drug users who contracted COVID-19 after receiving a placebo was a relatively tiny 8.3%, but the percentage of persons who contracted the virus after receiving the vaccination was a very significant 91.7%. Of the drug users who were well, 49% of those who received the vaccination and 51% of those who received a placebo were well. If 91.7% of vaccination recipients contracted COVID-19, this indicates that the immunization is ineffective for drug users. COVID-19 was much lower in those who received the placebo. 
+
 # Overall Results and Conclusions
