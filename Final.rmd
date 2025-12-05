@@ -155,6 +155,12 @@ Fsfish <- fisher.test(table1)
 Fsfish
 ```
 
+Out of all these outcomes, the Fisher's Exact test output is the one that requires the greatest attention. The resultant p-value is a very tiny 0.000000001. It is essentially zero. This indicates that it is unlikely that these outcomes happened by accident. 
+
+This indicates a robust rejection of the null hypothesis that COVID-19 infection is independent of sex. 
+
+1.9 is the odds ratio. This indicates that women who received a placebo had a roughly twofold higher risk of contracting COVID-19 compared to those who received the vaccination. This is important. Additionally, it indicates that the vaccination is probably efficacious. 
+
 ## LGBTQ
 
 
