@@ -18,7 +18,17 @@ FinalDat <-read.csv(file="finalSumr2024.csv",header=TRUE)
 FinalData <- FinalDat  %>% select(-one_of("X"))
 FinalData <- FinalData %>%
 mutate(across(where(is.character), as.factor))
+FinalData$treatment <- relevel(FinalData$treatment,ref="placebo")
+#FinalData$infected <- relevel(FinalData$infected,ref="OK")
+M = filter(FinalData, sex =="M")
+F = filter(FinalData, sex =="F")
+gay = filter(FinalData, LGBTQ =="gay")
+Druguser = filter(FinalData, DrugUser =="yes")
 ```
+
+# Coding details
+
+Separating the variables into the four groups they belonged to was crucial for an effective evaluation of the data. "M", "F", "gay", and "drug users" are the four variables I created. To determine whether or not they should get the Covid-19 vaccine, they were kept apart. I did this in order to generate the efficacy intervals. They were kept in different variables. 
 
 # Introduction
 
