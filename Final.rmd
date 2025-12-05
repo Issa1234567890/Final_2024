@@ -102,6 +102,11 @@ options(digits=2)
 
 ## Effectiveness Confidence Interval `r low`  to `r hi`
 
+The efficacy of the COVID-19 vaccination for men is shown in the region above. It is crucial to understand that a vaccination is successful if its efficiency is more than 50%. We can determine that the vaccination is successful in preventing males from contracting COVID-19 based on the interval shown above. 
+
+The vaccine's effectiveness is roughly represented by the odds ratio. The men' odds ratio is 73.8. The confidence range for efficacy is somewhere between 68.85 and 78.32. 
+
+
 ## Females
 
 
