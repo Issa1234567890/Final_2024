@@ -320,4 +320,9 @@ options(digits=2)
 
 ## Effectiveness Confidence Interval `r low`  to `r hi`
 
+The efficacy of the COVID-19 vaccination for drug users is shown in the section above. It is crucial to understand that a vaccination is successful if its efficiency is more than 50%. We may determine that the vaccination is unsuccessful at preventing drug users from contracting COVID-19 based on the interval shown above.
+
+The vaccine's effectiveness is roughly represented by the odds ratio. One may observe that the odds ratio for drug users is 8.04. The confidence range for efficacy is from 2.65 to 17.86. For drug users, it is actually completely ineffective.
+
+
 # Overall Results and Conclusions
