@@ -233,6 +233,22 @@ This indicates a solid rejection of the null hypothesis that COVID-19 infection 
 
 4.3 is the odds ratio. This indicates that the risk of contracting COVID-19 was about four times higher for those who received a placebo than for those who received the vaccination. This is really important. Additionally, it indicates that the vaccination is probably safe for LGBTQ people. The odds ratio exceeds both the male and female ratios. 
 
+```{r}
+effect <- gaysfish$p.value/(gaysfish$p.value +1)
+effectivenessgays = gaysfish$estimate/(gaysfish$estimate +1)*100
+print(effectivenessgays)
+```
+
+```{r}
+low=(gaysfish$conf.int[1]/(gaysfish$conf.int[1] +1))*100
+hi=(gaysfish$conf.int[2]/(gaysfish$conf.int[2] +1))*100
+options(digits=2)
+```
+
+
+## Effectiveness Confidence Interval `r low`  to `r hi`
+
+
 ## Druggies
 
 
