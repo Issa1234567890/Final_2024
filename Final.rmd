@@ -72,6 +72,15 @@ The exact percentages of guys who contracted COVID-19 after receiving either the
 
 Compared to the percentage of individuals who contracted COVID-19 after receiving the vaccination (26.20%), the number of men who contracted the virus after receiving a placebo was a staggering 73.80%. Of the guys who were well, 49.99% of those who received the vaccination and 50.01% of those who received a placebo were well. Given that only 26.20% of those who received the vaccination contracted COVID-19, this indicates that the vaccine is successful in men. COVID-19 was far more common in those who took the placebo. This is crucial. 
 
+### Inferential Results 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+Msfish <- fisher.test(table1)
+Msfish
+```
+
 ## Females
 
 
