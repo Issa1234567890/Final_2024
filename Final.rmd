@@ -326,3 +326,13 @@ The vaccine's effectiveness is roughly represented by the odds ratio. One may ob
 
 
 # Overall Results and Conclusions
+
+In terms of preventing guys from contracting COVID-19, it was rather successful. The boys' COVID-19 efficacy was 73.8. The confidence range for efficacy is somewhere between 68.85 and 78.32. 
+
+Women were successfully shielded from contracting COVID-19. For females, the COVID-19 effectiveness score was 65. The confidence range for efficacy is between 59.8 and 69.92. 
+
+When it came to preventing homosexual people from contracting COVID-19, it was the most effective. For LGBT people, the COVID-19 efficacy was 81. The confidence range for efficacy is from 69 to 89.88.
+
+Drug users were not effectively protected against contracting COVID-19. The efficacy of COVID-19 was 8.04. The confidence range for efficacy is from 2.65 to 17.86. For drug users, it is actually completely ineffective.
+
+In conclusion, it works incredibly effectively for both men and gays. It works rather well for women as well. Drug users are not advised to use it.
