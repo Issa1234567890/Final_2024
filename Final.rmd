@@ -218,6 +218,14 @@ The exact percentages of homosexual people who contracted COVID-19 after receivi
 
 According to the figures I estimated from the barplot, the percentage of homosexual persons who contracted COVID-19 after receiving a placebo was 80%, which is significantly higher than the percentage of people who contracted the virus after receiving the vaccination (20%). Of the homosexuals who were alright, 52% of those who received the vaccination and 48% of those who received a placebo were OK. Given that just 20% of those who received the vaccination contracted COVID-19—a very low percentage—this indicates that the vaccine is efficacious in homosexual persons. COVID-19 was far more common in those who took the placebo. This is really important.
 
+### Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+gaysfish <- fisher.test(table1)
+gaysfish
+```
 
 ## Druggies
 
